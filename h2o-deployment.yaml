@@ -18,7 +18,7 @@ spec:
         io.kompose.service: h2o
     spec:
       containers:
-      - image: docker.io/jasmi111/h2o:latest
+      - image: docker.io/jasmi111/h2ojas:latest
         name: h2o
         ports:
         - containerPort: 3000
